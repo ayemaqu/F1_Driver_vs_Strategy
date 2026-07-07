@@ -1,1 +1,6 @@
 data/raw/
+
+
+# Re-include project data CSVs (overrides global *.csv ignore)
+!data/clean/*.csv
+!data/processed/*.csv
