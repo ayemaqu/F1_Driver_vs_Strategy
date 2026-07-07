@@ -19,4 +19,4 @@ Does winning in F1 come down to the driver, the team strategy, or both? And has 
 - Python, pandas, SQL, Tableau
 
 ##### Status
-Week 2 in progress. Creating a data dictionary. 
+Week 2 in progress: Working on EDA and Statistical Analysis 
