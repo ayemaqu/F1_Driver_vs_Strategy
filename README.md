@@ -19,4 +19,4 @@ Does winning in F1 come down to the driver, the team strategy, or both? And has 
 - Python, pandas, SQL, Tableau
 
 ##### Status
-- Creating all 3 models. 
+- Refactoring and Deployment is next. 
