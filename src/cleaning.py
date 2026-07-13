@@ -15,6 +15,12 @@ def load_raw(raw_dir='../data/raw'):
     for name in file_names:
         dfs[name] = pd.read_csv(f'{raw_dir}/{name}.csv')
 
+    # Reproducibility check: every table loaded and actually has rows.
+    # read_csv crashes loudly on a missing file, but an empty file loads
+    # quietly and would let the whole pipeline run hollow.
+    for name, df in dfs.items():
+        assert len(df) > 0, f"{name} loaded with zero rows"
+
     return dfs
 
 
